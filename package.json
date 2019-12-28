@@ -1,0 +1,27 @@
+{
+    "name": "sample-js-project",
+    "version": "1.0.0",
+    "description": "Just a simple example of js project.",
+    "author": "MouhcineFD",
+    "license": "ISC",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "nodemon --exec babel-node src/index.js",
+        "lint": "eslint .",
+        "upgrade": "npm-check-updates --upgrade"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.3",
+        "@babel/node": "^7.8.3",
+        "@babel/preset-env": "^7.8.3",
+        "babel-plugin-module-resolver": "^4.0.0",
+        "dotenv": "^8.2.0",
+        "eslint": "^6.8.0",
+        "eslint-import-resolver-babel-module": "^5.1.1",
+        "eslint-plugin-import": "^2.20.0",
+        "nodemon": "^2.0.2",
+        "npm-check-updates": "^4.0.1",
+        "prettier": "1.19.1"
+    },
+    "dependencies": {}
+}
